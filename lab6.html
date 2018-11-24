@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab6</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <label>First Name*
+                    <input type="text" id="visitor-name" required placeholder="Nazar">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Last Name*
+                    <input type="text" id="visitor-second-name" required placeholder="Koval">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Email*
+                    <input type="email" id="visitor-email" required placeholder="nazar.koval@gmail.com">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Password*
+                    <input type="password" id="visitor-pass" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <p>Стать?</p>
+                <label>
+                    <input type="radio" name="kurs" value="1">Чоловік
+                </label>
+                <label>
+                    <input type="radio" name="kurs" value="2">Жінка
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>TELL ME ABOUT IT*</label>
+                <textarea id="visitor-info"></textarea>
+            </fieldset>
+            <fieldset>
+                    Що ви вже зробили?
+                    <label>Курсова
+                        <input type="checkbox" name="check" value="1">
+                    </label>
+                    <label>Розрахункова
+                        <input type="checkbox" name="check" value="2">
+                    </label>
+                    <label>Лабораторна
+                        <input type="checkbox" name="check" value="3">
+                    </label>    
+            </fieldset>
+            <fieldset>
+                <label>Ваш аватар
+                    <input type="file" name="file">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Виберіть ваше місто
+                    <select name="select2">
+                        <option selected value="c1">Львів</option>
+                        <option value="c2">Київ</option>
+                        <option value="c3">Одеса</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Виберіть дату
+                    <input type="date" name="date">
+                </label>
+            </fieldset>
+            <input id="submit-contact-form" type="submit">
+            <input type="reset">
+        </form>
+
+    </main>
+</body>
+</html>
